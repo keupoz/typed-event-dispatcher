@@ -32,11 +32,16 @@ const options = [
   },
   {
     input: fg.sync('src/lib/**/*.ts'),
-    output: {
+    output: [{
+      preserveModules: true,
+      format: 'esm',
+      dir: 'dist/cjs/lib'
+    },
+    {
       preserveModules: true,
       format: 'esm',
       dir: 'dist/esm'
-    },
+    }],
     treeshake: true,
     plugins: [dts()]
   }
