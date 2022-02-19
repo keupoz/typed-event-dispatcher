@@ -2,7 +2,7 @@
   "name": "@keupoz/typed-event-dispatcher",
   "version": "1.0.1",
   "description": "Typed Event dispatcher for TypeScript",
-  "main": "dist/cjs/index.js",
+  "main": "dist/cjs/lib/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
