@@ -1,6 +1,6 @@
 {
   "name": "@keupoz/typed-event-dispatcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typed Event dispatcher for TypeScript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
