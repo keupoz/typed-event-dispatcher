@@ -45,7 +45,7 @@ foo.on("init", () => {
   console.log("Foo is initialized");
 });
 
-// data is any
+// data is { type: string; data: any; }
 foo.on("bar", (data) => {
   console.log(`Got data of type '${data.type}'`, data.data);
 });
