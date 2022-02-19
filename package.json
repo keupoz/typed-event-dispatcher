@@ -1,0 +1,45 @@
+{
+  "name": "@keupoz/typed-event-dispatcher",
+  "version": "1.0.0",
+  "description": "Typed Event dispatcher for TypeScript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "test": "jest dist/cjs/test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keupoz/typed-event-dispatcher.git"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "event",
+    "dispatcher",
+    "emitter"
+  ],
+  "author": "keupoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keupoz/typed-event-dispatcher/issues"
+  },
+  "homepage": "https://github.com/keupoz/typed-event-dispatcher#readme",
+  "devDependencies": {
+    "@keupoz/typescript-config": "^1.4.0",
+    "@rollup/plugin-sucrase": "^4.0.2",
+    "@types/jest": "^27.4.0",
+    "fast-glob": "^3.2.11",
+    "jest": "^27.5.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.67.3",
+    "rollup-plugin-dts": "^4.1.0",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.5.5"
+  }
+}
